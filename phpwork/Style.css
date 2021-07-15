@@ -1,0 +1,76 @@
+/* 网页元素边距清零 */
+body,header,nav,ul,li,main,footer{
+	margin: 0;
+}
+/* header头部宽960像素，高110像素，背景图片Images/banner.jpg，居中 */
+header {
+	width:960px;
+	height:110px;
+	background-image: url('Images/banner.jpg');
+	margin: 0px auto;
+}
+/* nav导航区宽960像素，高30像素，背景颜色为#D2E9FF，居中  */
+nav {
+	width: 960px;
+	height: 30px;
+	background-color:#D2E9FF;
+	margin: 0px auto;
+	text-align:right;
+}
+/* nav导航区的列表去掉默认的圆点标记 */
+nav ul{
+	list-style-type:none;
+	margin-left: -40px;
+}
+/* nav导航区的各列表项水平放置  */
+nav ul li {
+    width: 100px;
+    height: 30px;
+	line-height: 30px;
+	text-align:center;
+	float: left;
+}
+/* nav导航区的各链接去掉默认的下划线  */
+nav a{
+	display:block;
+	width:100px;
+	text-decoration:none;	
+}
+/* main内容区宽960像素，居中，银色细线边框  */
+main{
+	width:960px;
+	margin: 0px auto;
+	text-align:center;
+	border:1px solid silver;
+	padding-bottom:40px;
+}
+/* footer页脚宽960像素，高60像素，背景图片Images/footer.jpg，居中  */
+footer{
+    width:960px;
+    height:60px;
+    background-image: url('Images/footer.jpg');
+    margin: 0px auto;
+    line-height: 60px;
+    text-align: center;
+    color:white;
+}
+
+#main{
+    width:900px;
+    line-height:40px;
+    margin:0 auto;
+    padding-left:50px;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align:left;
+    font-size:14px;
+}
+.error{
+    color:red;
+}
+#welcome{
+	
+	line-height: 30px;
+}
+
+
